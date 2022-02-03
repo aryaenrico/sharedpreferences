@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belajar Share Preferences"
+         />
+
+    <EditText
+        android:id="@+id/edInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Input kata"
+        />
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:onClick="simpan"/>
+    <Button
+        android:id="@+id/btnTampil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMPIL NAMA"
+        android:onClick="tampil"/>
+    <Button
+        android:id="@+id/btnUbah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UBAH"
+        android:onClick="ubah"/>
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:onClick="hapus"/>
+
+
+</LinearLayout>
